@@ -28,7 +28,7 @@
 
 在方法增加 `@Lock` 注解 [lock参数介绍](readme/lock.md)
 
-####添加依赖
+#### 添加依赖
 ```
 <dependency>
   <groupId>io.github.maoxianglong</groupId>
@@ -36,7 +36,7 @@
   <version>1.0.0</version>
 </dependency>
 ```
-####锁维度支持spel表达式
+#### 锁维度支持spel表达式
 ```
 //1.支持spel表达式,keyConstant是常量(可选)
 @Lock(keys = "#user.name",keyConstant = "常量"))
