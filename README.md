@@ -85,11 +85,8 @@ public String test(User user) {
 
 ---
 
-#### 2.如何集成spring cache
-
-> 启动类加上 `@EnableCache(value = {"cache1","cache2"})` ,@Cacheable,@CachePut,@CacheEvict的value必须包含在这里面
-
----
+#### 2.使用spring cache
+待更新...
 
 #### 技术交流
 mxl_xt@163.com
