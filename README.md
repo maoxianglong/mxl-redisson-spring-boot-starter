@@ -27,6 +27,15 @@
 >1.如何使用`分布式锁`?
 
 在方法增加 `@Lock` 注解 [lock参数介绍](readme/lock.md)
+####添加依赖
+```
+<dependency>
+  <groupId>io.github.maoxianglong</groupId>
+  <artifactId>mxl-redisson-spring-boot-starter</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+####锁维度支持spel表达式
 ```
 //1.支持spel表达式,keyConstant是常量(可选)
 @Lock(keys = "#user.name",keyConstant = "常量"))
@@ -82,3 +91,5 @@ public String test(User user) {
 
 ---
 
+#### 技术交流
+mxl_xt@163.com
